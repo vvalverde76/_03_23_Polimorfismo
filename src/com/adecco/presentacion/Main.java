@@ -20,7 +20,7 @@ public class Main {
         System.out.println(p1);
         System.out.println("Calculo del iva "+ p1.calcularIva());
 
-        Producto p2= new ProductoLujo(2,"Raton Inalambrico",20.5,3);
+        Producto p2= new ProductoLujo(2,"Raton Inalambrico",20.5);
         System.out.println(p2.toString());
         System.out.println("Calculo del iva "+ p2.calcularIva());
 
@@ -38,7 +38,7 @@ public class Main {
         System.out.println("Calculo del iva "+ p4.calcularIva());
         System.out.println(p4.toString());
 
-        ProductoLujo pl1 = new ProductoLujo(8,"Bicicleta",500,10);
+        ProductoLujo pl1 = new ProductoLujo(8,"Bicicleta",500);
         System.out.println("Calculo del iva "+ pl1.calcularIva());
         System.out.println(pl1.toString());
 

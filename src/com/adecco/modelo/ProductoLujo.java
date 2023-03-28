@@ -2,7 +2,9 @@ package com.adecco.modelo;
 
 public class ProductoLujo extends Producto{
 
-    private int stock;
+
+
+    //Metodo abstracto de la clase producto=
     @Override
     public double calcularIva() {
         return precioProducto * 0.21;
@@ -11,7 +13,6 @@ public class ProductoLujo extends Producto{
     @Override
     public String toString() {
         return "ProductoLujo{" +
-                "stock=" + stock +
                 ", idProducto=" + idProducto +
                 ", nombreProducto='" + nombreProducto + '\'' +
                 ", precioProducto=" + precioProducto +
@@ -21,8 +22,8 @@ public class ProductoLujo extends Producto{
     public ProductoLujo() {
     }
 
-    public ProductoLujo(int idProducto, String nombreProducto, double precioProducto, int stock) {
+    public ProductoLujo(int idProducto, String nombreProducto, double precioProducto) {
         super(idProducto, nombreProducto, precioProducto);
-        this.stock = stock;
+
     }
 }
