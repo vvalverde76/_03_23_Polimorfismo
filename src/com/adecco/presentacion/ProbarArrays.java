@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class ProbarArrays {
     public static void main(String[] args) {
-        //Definicion de Arrays
+        //Definicion de Arrays de tipo primitivo
 
         int[] numeros = new int[3];
         // Asignar valor primera posicion
